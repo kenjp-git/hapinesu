@@ -1,0 +1,155 @@
+/*2020/12/23-14:28*/
+/*mk_happy_style.css*/
+@charset 'utf-8';
+
+.back_light_1 { left: 85px; top: 17px; }
+.back_light_2 { left: 90px; top: 20px; }
+.back_light_3{ left: 95px; top: 17.5px; }
+.back_light_4 { left: 120.2px; top: 18.5px; }
+.back_light_5 { left: 128px; top: 24px; }
+.back_light_6 { left: 133.5px; top: 21px; }
+.back_light_7 { left: 166px; top: 15.8px; }
+.back_light_8 { left: 176px; top: 14px; }
+.back_light_9 { left: 205px; top: 24px; }
+.back_light_10 { left: 205px; top: 26px; }
+.back_light_11 { left: 213px; top: 26px; }
+.back_light_12 { left: 222px; top: 22px; }
+.back_light_13 { left: 249px; top: 18px; }
+.back_light_14 { left: 252px; top: 17px; }
+.back_light_15 { left: 278px; top: 27.5px; }
+.back_light_16 { left: 284.5px; top: 30.2px; }
+.back_light_17 { left: 295px; top: 23px; }
+.back_light_18 { left: 325.5px; top: 24.6px; }
+.back_light_19 { left: 332.2px; top: 28.5px; }
+.back_light_20 { left: 340px; top: 26.8px; }
+.back_light_21 { left: 345.5px; top: 16.5px; }
+.back_light_22 { left: 352px; top: 21px; }
+.back_light_23 { left: 377px; top: 23.5px; }
+.back_light_24 { left: 382px; top: 25px; }
+.back_light_25 { left: 392.5px; top: 23px; }
+
+
+.house_light_1 { left: 86.49px; top: 18px; }
+.house_light_2 { left: 94.2px; top: 23.3px; width: 1.8px; height: 1.8px; }
+.house_light_3{ left: 98.5px; top: 21.5px; width: 2px; height: 2px; }
+.house_light_4 { left: 121.4px; top: 19.5px; width: 3px; height: 3px; }
+.house_light_5 { left: 130.9px; top: 26.3px; width: 2px; height: 2px; }
+.house_light_6 { left: 136.5px; top: 23.5px; width: 2.5px; height: 2.5px; }
+.house_light_7 { left: 167.1px; top: 16.5px; width: 3px; height: 3px; }
+.house_light_8 { left: 178.5px; top: 16px; width: 2.5px; height: 2.5px; }
+.house_light_9 { left: 206.7px; top: 25.5px; }
+.house_light_10 { left: 206.5px; top: 30px; width: 1.5px; height: 1.5px; }
+.house_light_11 { left: 214.5px; top: 29.5px; }
+.house_light_12 { left: 225.8px; top: 25px; }
+.house_light_13 { left: 249.5px; top: 21.3px; }
+.house_light_14 { left: 257px; top: 19.3px; width: 1px; height: 1px; }
+.house_light_15 { left: 279.9px; top: 29.1px; }
+.house_light_16 { left: 286px; top: 31.5px; }
+.house_light_17 { left: 296px; top: 23.5px; width: 2.5px; height: 2.5px; }
+.house_light_18 { left: 326.8px; top: 26px; width: 2.3px; height: 2.3px; }
+.house_light_19 { left: 333.5px; top: 29.8px; width: 2.5px; height: 2.5px; }
+.house_light_20 { left: 341.5px; top: 28.3px; width: 2.7px; height: 2.7px; }
+.house_light_21 { left: 348.1px; top: 18.2px; width: 3px; height: 3px; }
+.house_light_22 { left: 356px; top: 23px; width: 2.5px; height: 2.5px; }
+.house_light_23 { left: 378.3px; top: 25.3px; }
+.house_light_24 { left: 384.8px; top: 28px; }
+.house_light_25 { left: 397px; top: 25px; }
+
+
+.tree_steady_light_1 { left: 29.5px; top: 6px; }
+.tree_steady_light_2 { left: 26.5px; top: 10px; }
+.tree_steady_light_3 { left: 32px; top: 12.5px; }
+.tree_steady_light_4 { left: 24px; top: 15px; }
+.tree_steady_light_5 { left: 30px; top: 17px; }
+.tree_steady_light_6 { left: 35px; top: 21px; }
+.tree_steady_light_7 { left: 25px; top: 21px; }
+.tree_steady_light_8 { left: 30px; top: 24px; }
+.tree_steady_light_9 { left: 21px; top: 27px; }
+.tree_steady_light_10 { left: 37px; top: 27px; }
+.tree_steady_light_11 { left: 27px; top: 30px; }
+.tree_steady_light_12 { left: 35px; top: 32px; }
+.tree_steady_light_13 { left: 22px; top: 34px; }
+.tree_steady_light_14 { left: 31px; top: 37px; }
+.tree_steady_light_15 { left: 39px; top: 39px; }
+.tree_steady_light_16 { left: 24px; top: 40px; }
+.tree_steady_light_17 { left: 17px; top: 41.5px; }
+.tree_steady_light_18 { left: 34px; top: 45px; }
+.tree_steady_light_19 { left: 25px; top: 46.5px; }
+.tree_steady_light_20 { left: 41.5px; top: 50px; }
+.tree_steady_light_21 { left: 15px; top: 50px; }
+.tree_steady_light_22 { left: 32px; top: 52px; }
+.tree_steady_light_23 { left: 21px; top: 55px; }
+.tree_steady_light_24 { left: 36px; top: 57px; }
+.tree_steady_light_25 { left: 27px; top: 60px; }
+.tree_steady_light_26 { left: 12px; top: 62px; }
+.tree_steady_light_27 { left: 43px; top: 62px; }
+
+
+.red_light_1 { left: 27px; top: 15px; }
+.red_light_2 { left: 33px; top: 27px; }
+.red_light_3 { left: 20px; top: 40px; }
+.red_light_4 { left: 35px; top: 50px; }
+.red_light_5 { left: 22px; top: 63px; }
+
+
+.green_light_1 { left: 30px; top: 10px; }
+.green_light_2 { left: 21px; top: 22px; }
+.green_light_3 { left: 31px; top: 31px; }
+.green_light_4 { left: 20px; top: 50px; }
+.green_light_5 { left: 32px; top: 57px; }
+
+
+.blue_light_1 { left: 27px; top: 5px; }
+.blue_light_2 { left: 35px; top: 17px; }
+.blue_light_3 { left: 23px; top: 25px; }
+.blue_light_4 { left: 35px; top: 39px; }
+.blue_light_5 { left: 17.5px; top: 58px; }
+
+
+.violet_light_1 { left: 30px; top: 20px; }
+.violet_light_2 { left: 25px; top: 35px; }
+.violet_light_3 { left: 32px; top: 48px; }
+.violet_light_4 { left: 25px; top: 55px; }
+.violet_light_5 { left: 35px; top: 62px; }
+
+
+@keyframes light_0 { 
+	0% {visibility: hidden}
+	20% {visibility: hidden}
+	40% {visibility: hidden}
+	60% {visibility: hidden}
+	70% {visibility: visible}
+	100% {visibility: visible}
+}
+
+@keyframes light_1 { 
+	0% {visibility: visible}
+	20% {visibility: hidden}
+	40% {visibility: hidden}
+	60% {visibility: hidden}
+	70% {visibility: visible}
+	100% {visibility: visible}
+}
+@keyframes light_2 { 
+	0% {visibility: hidden}
+	20% {visibility: visible}
+	40% {visibility: hidden}
+	60% {visibility: hidden}
+	70% {visibility: visible}
+	100% {visibility: visible}
+}
+@keyframes light_3 { 
+	0% {visibility: hidden}
+	20% {visibility: hidden}
+	40% {visibility: visible}
+	60% {visibility: hidden}
+	70% {visibility: visible}
+	100% {visibility: visible}
+}
+@keyframes light_4 { 
+	0% {visibility: hidden}
+	20% {visibility: hidden}
+	40% {visibility: hidden}
+	60% {visibility: visible}
+	70% {visibility: visible}
+	100% {visibility: visible}

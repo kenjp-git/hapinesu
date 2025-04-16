@@ -1,0 +1,490 @@
+<!--2022/10/21-21:10-->
+<!--/storage/emulated/0/hapinesu/7mk_happiness.html-->
+<!doctype html>
+<html lang="ja">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ハピネス 平和版 / HAPPINESS Peace ver.</title>
+<!--<link href=" " rel="stylesheet">-->
+
+<script id="basic_style_doc" type="text/javascript">
+var basic_style_doc= `
+* {
+	/*outline: 1px solid #555*/
+}
+ 
+body { 
+	/*position: absolute;*/width: 500px;
+	background: gray;
+	vertical-align: bottom;
+	/*outline: 1px solid #fff;*/
+	/*overflow:hidden;*/
+}
+
+
+.frame {
+	position: relative; /*left: 10px;*/
+	display: inline-block;
+	width: 427px; height: 240px;
+	margin: 0 5px 0 0;
+	/*color: #FFA400;*/
+	background: #007CD1;
+	/*outline: 1px solid yellow;*/
+	overflow-y:hidden;
+	/*overflow-x:visible;*/
+}
+
+.back_sky { 
+	position: absolute;
+	outline: 0px solid violet;
+}
+
+.towns { 
+	position:absolute;
+	z-index: 200px;
+	outline: 0px solid black;
+}
+
+#ctrls { 
+	position: relative;/*absolute; top: 180px;*/
+	display: block;
+	outline: 0px solid orange;
+	/*text-align: center;*/
+	vertical-align: bottom;
+	font-weight:bold;
+}
+#logs {
+	display:none;
+}
+
+#timer, #cntdwn {
+	display: inline-block; 
+	position:relative;
+	left: 35%;
+	border-radius: 5px;
+	background: white; 
+	padding: 5px 10px;
+	color: green;/*#6FCDFF;*/
+	text-shadow: 0 0 10px #6FCDFF;
+}
+
+.btn { 
+	/*position: relative; top: 220px;*/
+	display: none;
+	outline: 0px solid yellow;
+	font-weight:bold;
+}
+
+#result { 
+    display:none;
+	outline: 1px solid violet;
+}
+
+.log { 
+	display: inline-block;
+	text-align: center;
+	outline: 1px solid pink;
+}
+
+.sky { 
+	position: absolute;
+	outline: 0px solid pink;
+	width: 420px; height:143px;
+}
+
+#img_houses { 
+	position: absolute;
+	/*outline: 0px solid green;*/
+}
+
+#tree { 
+	position: absolute; top: 200px;
+	width:50px; height: 50px;
+	background: #FFBB00;
+	transition: all 5s ease /*0.99s*/;
+	/*outline: 5px solid #00EAFF;*/
+}
+
+#front_frame { 
+	position: fixed;
+	width: 427px; height: 240px;
+	/*outline: 3px solid gray;*/
+}
+
+@keyframes none { 
+	0% { }
+	100% { }
+}
+
+#img_tree { 
+	position: absolute;
+	/*outline: 0px solid red;*/
+}
+
+#play_btn {
+	position:relative;
+	left: 45%;
+	display:inline-box;
+	width:7%;
+	padding:5px 0px 5px 7px;
+	border-radius:8px;
+	text-align:center;
+	color:#fff;
+	background: red;
+	font: 100% bold;
+	cursor: pointer;
+}
+
+#my_video {
+	padding: 5px 10%;
+	/*text-align:center;*/  
+}
+
+#my_video a {
+	color: navy; /*#6FCDFF;*/
+}
+
+#video {
+	position:relative;
+}
+`;
+</script>
+<!--</style>-->
+<link href="./mk_happy_style.css" rel="stylesheet">
+</head>
+<body>
+<!--<div id="happiness_frame">-->
+	<!--<iframe id="happiness_frame" src="./frame.html"></iframe>-->
+	<!--<object id="happiness" data="./frame.html" type="text/html"></object>-->
+<!--<br><br><br><br><br><br>-->
+<div id="frame" class="frame">
+	<img class="back_sky" src="./MediBangPaint/1608880622539.png" width="auto" height="240" alt="sky">
+
+	<div id="sky" class="sky"></div>
+	<div id="meteors" class="meteors">
+		<div id="meteor1" class="meteor meteor1"></div>
+		<div id="meteor2" class="meteor meteor2"></div>
+		<div id="meteor3" class="meteor meteor3"></div>
+		<div id="meteor4" class="meteor meteor4"></div>
+	</div>
+	<!--<p>--><pre id="home">
+
+
+
+
+
+
+
+
+
+
+
+La La La LaLa ×2
+
+
+(Eh eh!) 
+I don't have much time. 
+(Eh eh!)
+So, I've no time to be kind.
+
+Even in such times, 
+(Eh eh!)
+there is someone who really 
+understands me (gives me).
+
+Take a look around 'n you can see 
+(can see), there are various of dramas.
+But not everything is disgusting news, 
+No No No No
+
+You can see, it's overflowing 
+(flowing), so plenty of smiles.
+Hey guys, face here and show smile. 
+Hey! (Hey)
+
+Every time you show your smile, 
+then everywhere in this world,
+more and more,
+the Happiness will fill up the earth.
+
+Every time you show your smile, 
+then everything will get better.
+Holding my hands, Holding your hands, 
+can connect hearts.
+
+
+La La La LaLa ×2
+
+
+
+La La La LaLa ×2
+
+
+
+The time that I was spending with you, 
+(Oh oh! Oh oh!) was so special. 
+I didn't think it was special.
+
+But when I became alone, 
+(ooh ooh ooh ooh ooh ooh ooh ooh)
+I felt like I understood 
+the Happiness to be with everyone. 
+
+And now I am really (I'm really) 
+glad to see all of you.
+Though I feel not so good 
+all over the day,
+looking at everyone's smiles 
+could make it Great! (Oh oh!)
+
+This night full of (Oh oh! Oh oh!) stars. 
+I wish I could 
+watch it with you too. Yeah! 
+(Hey)
+
+Every time you show your smile, 
+then everywhere in this world,
+more and more,
+the Happiness will fill up the earth.
+Every time you show your smile, 
+then everything will get better.
+Holding my hands, Holding your hands, 
+can connect hearts↑.
+
+Eh! Everywhere in the town is being 
+shrouded with light. 
+Oh yeah! Wishing it could go far 
+and reach you too.
+Oh! It's glittering. Oh! Powdery snow… 
+This Winter.
+I want to make you Smiling again…… Hey! 
+(Hey)
+
+Every time you show your smile, 
+(Heh eh!)
+then everywhere in this world, (more)
+more, more and more,
+the Happiness will fill up the earth.
+Every time you show your smile, 
+(Heh eh!)
+then everything will get better.
+Holding my hands, Holding your hands, 
+can connect hearts.
+
+La La La LaLa ×2
+
+
+
+La La La LaLa ×2
+
+
+
+(Eh eh!) 
+Every time you show your smile, 
+then everywhere in this world,
+more and more,
+the Happiness will fill up the earth.
+
+Every time you show your smile, 
+then everything will get better.
+Lending my hands, Lending your hands, 
+they can bring Peace.
+
+(La La La LaLa)
+
+
+
+
+
+
+
+
+
+
+
+
+	</pre>
+
+	<img class="towns" src="./MediBangPaint/1608880563454.png" width="auto" height="240" alt="town">
+	<div id="video_serial">&copy;ken</div>
+	<div id="back_lights" class="back_lights"></div>
+	<img id="img_houses" src="./MediBangPaint/1609398921208.png" width="auto" height="240" alt="town">
+	<div id="houses_lights" class="houses_lights"></div>
+	<img id="img_tree" src="./MediBangPaint/1609061286687.png" width="auto" height="240" alt=" ">
+	<div id="tree_top_star_light"></div>
+	<div id="tree_top_star_ring">
+		<span id="inner_star"></span>
+	</div>
+	<div id="tree_steady_lights" class="tree_steady_lights"><!--<ul></ul>--></div>
+	<div id="tree_dynamic_lights" class="tree_dynamic_lights"><!--<ul></ul>--></div>
+	<div id="flakes_sky">
+		<!--<img src=" " width=" " height="auto" class="flake" alt=" ">
+		<img src=" " width=" " height="auto" class="flake" alt=" ">
+		<img src=" " width=" " height="auto" class="flake" alt=" ">
+		<img src=" " width=" " height="auto" class="flake" alt=" ">
+		<img src=" " width=" " height="auto" class="flake" alt=" ">
+		-->
+	</div>
+	<div id="snow_sky" class="snow_sky"></div>
+	<div id="sub_title" class="sub_title">
+		<span id="sub_letter" class="sub_letter">Happiness!</span>
+		<span id="letter_ver">Peace version</span>
+		<!--<span id="letter">H</span><span>a</span><span>p</span><span>p</span><span>i</span><span>n</span><span>e</span><span>s</span><span>s</span><span></span>-->
+	</div>
+	<div id="title_frame">
+		<div id="frame_back"></div>
+		<div id="main_title">
+			<div id="original">AI</div>
+			<div id="title">Happiness</div>
+			<div class="title_desc">
+				<div id="title_ver">Peace version</div>
+				<span></span>
+				<div id="maker">by ken</div>
+				<div id="play_btn">&#9654;</div>
+			</div>
+		</div>
+	</div>
+	<div id="front_frame"></div>
+	
+</div><!--frame-->
+<!--</div>-->
+
+<div id="ctrls" class="">
+	<div id="logs" class="">0:00.0</div>
+	<div id="timer">0:00.0</div>
+	<div id="btn" data-onclick="btnClick(obj, target);" class="btn" data-flag="false">▶</div>
+</div>
+<div id="result">
+	<div id="logs2" class="log">none</div>
+	<div id="logs3" class="log">log3</div>
+</div>
+<div id="my_video">歌ってみた→♪<a href="https://youtu.be/WhJIOK-ighg">https://youtu.be/WhJIOK-ighg</a></div>
+<iframe id="video" width="427" height="240.1875" src="https://www.youtube.com/embed/BdhyQx0H7jY?enablejsapi=1&origin=http://forestwizard.starfree.jp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<br><br><br><br><br><br>
+
+<!--//imports//-->
+<script data-classNm="ScrollTimeCtrl" id="lyrics_scroller" src="./2mk_ScrollTimeCtrl.js" type="text/javascript"></script>
+<script data-classNm="BackAnime" id="back_anime_funcs" src="./mk_HappyBackAnime.js" type="text/javascript"></script>
+
+<script id="main" type="text/javascript">
+//{
+	let styleTag= document.createElement('style');
+	styleTag.id= 'hello';
+	let head= document.getElementsByTagName('head')[0];
+	head.appendChild(styleTag);
+	//head.insertBefore(styleTag, head.lastChild);
+//}
+
+//var targetFrameWin = document.getElementById("happiness_frame").contentWindow;
+var frame= document.getElementById('frame');
+var home= document.getElementById('home');
+var logs= document.getElementById('timer');
+
+//logs.textContent= ScrollTimeCtrl;
+var hap_motion= new ScrollTimeCtrl({
+	targetE: home, 
+	motion_length: '4:28.0', 
+	scroll_origin: 0,
+	scroll_end: 1000,
+	logs: logs,
+});
+
+//logs.textContent= hap_motion;
+
+hap_motion.playFrom('0:00.0');//2:43.2
+hap_motion.setIntervalTiming(100);
+
+var basic_stylesheet= document.head.lastChild.sheet;//styleSheets[1];
+hap_motion.applyCssDocToDOM(basic_style_doc, basic_stylesheet);
+
+</script>
+<script  id="TitleAnime" src="./scripts/TitleAnime.js" type="text/javascript"></script>
+<script  id="LyricsAnime" src="./scripts/LyricsAnime.js" type="text/javascript"></script>
+<script  id="SubLettersAnime" src="./scripts/SubLettersAnime.js" type="text/javascript"></script>
+<script  id="StarsAnime" src="./scripts/StarsAnime.js" type="text/javascript"></script>
+<script  id="SerialAnime" src="./scripts/SerialAnime.js" type="text/javascript"></script>
+<script  id="SnowsAnime" src="./scripts/SnowsAnime.js" type="text/javascript"></script>
+<script  id="MeteorsAnime" src="./scripts/MeteorsAnime.js" type="text/javascript"></script>
+<script  id="HousesLightsAnime" src="./scripts/2HousesLightsAnime.js" type="text/javascript"></script>
+<script  id="TreeLightsAnime" src="./scripts/2TreeLightsAnime.js" type="text/javascript"></script>
+<script  id="FlakesAnime" src="./scripts/FlakesAnime.js" type="text/javascript"></script>
+
+<script src="https://www.youtube.com/iframe_api"></script>
+<script>
+/*(function() {
+  document.addEventListener('DOMContentLoaded', function() {
+     document.currentScript.addEventListener('load', playClick);   
+	//document.getElementById('main').addEventListener('load', setFrameFunc);
+  });
+}());
+*/
+var frame = document.getElementById('frame');
+var pbtn= document.getElementById('play_btn');
+
+var player;
+function onYouTubeIframeAPIReady() {
+	player = new YT.Player('video', {
+		events:{
+			'onReady': onPlayerReady,
+			'onStateChange': onPlayerStateChange,
+		}
+	});
+	console.log("YT API ok");
+	console.log(player);
+	//frame.onclick= frameClick;
+}
+
+function onPlayerReady(event) {
+	/*event.target.playVideo();*/
+	frame.onclick= frameClick;
+	console.log("player is ready");
+}
+
+function frameClick() {
+	player.playVideo();
+}
+
+var done= false;
+function onPlayerStateChange(event) {
+	console.log("the player starts");
+	if(event.data == YT.PlayerState.PLAYING && !done) {
+		/*再生中なら*/
+		if(player.getPlayerState() == 1) {
+			/*1秒後にアニメを再生*/
+			setTimeout(playMyAnime, 1000);
+		}
+	}
+}
+
+function playMyAnime() {
+	pbtn.style.display='none';
+	hap_motion.btnClick2();
+}
+//frame.onclick= playClick;
+
+function setFrameFunc() {
+  document.getElementById('frame').onload= playClick;
+  //hap_motion.play();
+}
+
+//document.getElementById('frame').onload= playClick;
+//document.getElementById('frame').onclick = hap_motion.play;
+//var pbtn= document.getElementById('play_btn');
+//pbtn.addEventListener("load", playClick, false);
+//btn.onclick= playClick;
+function btnClick() { 
+	hap_motion.btnClick(pbtn, hap_motion);
+}
+function playClick() {
+	hap_motion.btnClick2();
+	pbtn.style.display='none';
+} 
+//pbtn.ontouchend= playClick;
+
+</script>
+
+<!--<script id="2nd_old_scripts"></script>-->
+<!--<script id="1st_old_scripts"></script>-->
+</body>
+</html>
